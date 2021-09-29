@@ -11,7 +11,7 @@ public class MainMenu : MonoBehaviour
     public TMP_Dropdown ResolutionDropdown;
  Resolution[] resolutions;
         private void Start()
-    {
+    { 
         int CurrentResolutionIndex = 0;
         resolutions = Screen.resolutions;
 
